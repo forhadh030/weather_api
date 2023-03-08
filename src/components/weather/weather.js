@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import axios from 'axios'
 
 function App() {
-  
+
   const [data, setData] = useState({})
   const [location, setLocation] = useState('')
 
@@ -23,6 +23,7 @@ function App() {
   }
 
   return (
+    
     <div className="app">
       <div className="search">
         {/* Interactive: listening to key strokes */}
