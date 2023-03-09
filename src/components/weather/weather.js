@@ -23,7 +23,6 @@ function App() {
   }
 
   return (
-    
     <div className="app">
       <div className="search">
         {/* Interactive: listening to key strokes */}
